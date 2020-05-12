@@ -125,7 +125,7 @@ public class GUI_Menu extends javax.swing.JFrame {
         jLabel6.setText("WILAYAH PENERIMA :");
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 340, -1, -1));
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "-", "JAKARTA", "SEMARANG", "SURABAYA", "BANDUNG", "YOGYAKARTA" }));
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "JAKARTA", "SEMARANG", "SURABAYA", "BANDUNG", "YOGYAKARTA" }));
         getContentPane().add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 360, 540, -1));
 
         jLabel7.setFont(new java.awt.Font("Futura Bk BT", 0, 14)); // NOI18N
@@ -273,7 +273,6 @@ public class GUI_Menu extends javax.swing.JFrame {
         jtnama1.setText("");
         jtnama2.setText("");
         jtyear.setText("");
-        jComboBox1.setSelectedItem("-");
         btnGrpjenis.clearSelection();
     }//GEN-LAST:event_jButton2ActionPerformed
 
@@ -300,8 +299,6 @@ public class GUI_Menu extends javax.swing.JFrame {
         String brt = jtberat.getText()+" kg";
         String hrg = jtbiaya.getText();
         new GUI_Nota(nama1, nama2, wlyh, tgl, jns, brt, hrg).setVisible(true);
-        
-        
     }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
