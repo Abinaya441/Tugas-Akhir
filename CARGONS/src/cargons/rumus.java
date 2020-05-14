@@ -23,14 +23,10 @@ public class rumus {
         jenis2 = jenis2s;
         kali = kalis;
         rms = berat * jenis2 * kali;
-        while (berat>3 && disc<=10000){
-            disc = rms / 10;
-        }
-        total = rms - disc;
     }
     
     public void menu(){
-        harga = Integer.toString(total);
+        harga = Integer.toString(rms);
         setHarga(harga);
     }
 }

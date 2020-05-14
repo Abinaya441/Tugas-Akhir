@@ -125,7 +125,7 @@ public class GUI_Menu extends javax.swing.JFrame {
         jLabel6.setText("WILAYAH PENERIMA :");
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 340, -1, -1));
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "JAKARTA", "SEMARANG", "SURABAYA", "BANDUNG", "YOGYAKARTA" }));
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "JAKARTA", "BANDUNG", "SURABAYA", "YOGYAKARTA", "SEMARANG" }));
         getContentPane().add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 360, 540, -1));
 
         jLabel7.setFont(new java.awt.Font("Futura Bk BT", 0, 14)); // NOI18N
